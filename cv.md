@@ -95,5 +95,3 @@ For the front-end, I used **_technologies such as HTML, CSS and Javascript_**. U
 
 Due to the company's customer base expansion and need for a mobile version website, as well as development and support of other ongoing projects, I was hired to build mobile version of their website as well as implement new features and functionality for their existing internal tools.
 
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое
-
