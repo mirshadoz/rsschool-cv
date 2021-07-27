@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rsschool-cv-html</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      #main-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        background-color: lightyellow;
+      }
+
+      .section {
+        margin: 25px;
+      }
+
+      .section0 {
+        background-color: aliceblue;
+        display: flex;
+        padding: 25px;
+      }
+
+      .section0 > #aboutMeDescription > p {
+        background-color: yellow;
+        margin-top: 2em;
+      }
+
+      .section0 > #aboutMeProfile > * {
+        /* border-radius: 50%; */
+        padding: 10px;
+      }
+      
+      .section0 > aboutMeProfile > img {
+        /* border-radius: 50%; */
+      }
+      
+      .section1 {
+        background-color: antiquewhite;
+      }
+      
+      .section2 {
+        background-color: lime;
+      }
+      
+      .section3 {
+        background-color: lightpink;
+      }
+      
+      .section4 {
+        background-color: lightskyblue;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main id="main-content">
+      <div class="section section0">
+        <div id="aboutMeProfile">
+          <img src="https://via.placeholder.com/150" alt="profile">
+          <h2>Full name</h2>
+          <p>Mirshad Ozuturk</p>
+          <h2>Contacts</h2>
+          <ul>
+            <li>
+              <strong>Email:</strong> mirshad.oz@gmail.com
+            </li>
+            <li>
+              <strong>Phone(Whatsapp):</strong> +7 (701) 488 88 43
+            </li>
+          </ul>
+        </div>
+        <div id="aboutMeDescription">
+          <h2>About Me</h2>
+          <p>I am passionate about <em>Web, Mobile and Cloud App development.</em></p>
+        </div>
+      </div>
+      <div class="section section1">Section: My Goal Section</div>
+      <div class="section section2">Section: Section: Personal Strengths</div>
+      <div class="section section3">Section: Quick Intro What I am doing right now</div>
+      <div class="section section4">Section: Employment Background</div>
+    </main>    
+  </body>
+</html>
