@@ -76,8 +76,18 @@
         padding: 10px 0 10px 0;
       }
 
-      main > footer {
+      main > footer > * {
         margin: 15px;
+        padding: 5px;
+      }
+
+
+      main > footer > div.footerRollingScopes {
+        display: flex;
+      }
+      
+      main > footer a{
+        text-decoration: none;
       }
 
     </style>
@@ -187,7 +197,16 @@
           <p>Due to the company’s customer base expansion and need for a mobile version website, as well as development and support of other ongoing projects, I was hired to build mobile version of their website as well as implement new features and functionality for their existing internal tools.</p>
         </div>
       </div>
-      <footer><p><em>All additional information will be sent upon request.</em></p></footer>
+      <footer>
+        <p><em>All additional information will be sent upon request.</em></p>
+        <p><a href="https://github.com/mirshadoz">My Github Account</a>, 2021</p>
+        <div class="footerRollingScopes">
+          <a href="Курс «JavaScript/Front-end»">
+            <img src="rs_school_js.svg" alt="Rolling Scopes" width="100px">
+            Курс «JavaScript/Front-end»
+          </a>
+        </div>
+      </footer>
     </main>    
   </body>
 </html>
