@@ -11,7 +11,7 @@
     <main id="main-content">
       <div class="section section0">
         <div id="aboutMeProfile">
-          <img src="mirshad.jpg" alt="profile" width="250px">
+          <img src="mirshad.jpg" alt="profile" width="250">
           <h2>Full name</h2>
           <p>Mirshad Ozuturk</p>
           <h2>Contacts</h2>
@@ -51,24 +51,26 @@
         <p>Here is the quick code snippet from my small Robofriends application where user is able to search through a list of Robots.</p>
         <p>In code below, I am using Javascript arrow function to render my a CardList component by using Array’s map function on my robots list so that a list of Robots is displayed with information such as name, username and email.</p>
         <p>
-          <code>
-            const CardList = ({ robots }) => {
-              return (
-                {    
-                  robots.map(user => {
-                    return (
-                      <Card 
-                        key={user.id}
-                        name={user.name} 
-                        username={user.username} 
-                        email={user.email} 
-                      />
-                    )
-                  })
-                }
-              );
-            }
-          </code>
+          <pre>
+            <code>
+              const CardList = ({ robots }) => {
+                return (
+                  {    
+                    robots.map(user => {
+                      return (
+                        <Card 
+                          key={user.id}
+                          name={user.name} 
+                          username={user.username} 
+                          email={user.email} 
+                        />
+                      )
+                    })
+                  }
+                );
+              }
+            </code>
+          </pre>
         </p>
         <p>For the past three to four months, I am fully emerged in learning and practicing in web development by implementing small web applications with Front-End tech stacks which I learned from Zero-To-Mastery: Web development course on Udemy.</p>
         <p>I am looking forward to apply my knowledge and work experience in interesting projects and hopefully join a great company with interesting projects in Web, Mobile and Cloud development.</p>
@@ -116,7 +118,7 @@
         <p><em>All additional information will be sent upon request.</em></p>
         <p><a href="https://github.com/mirshadoz">My Github Account</a>, 2021</p>
         <div class="footerRollingScopes">
-          <a href="Курс «JavaScript/Front-end»">
+          <a href="https://rs.school/js/">
             <img src="rs_school_js.svg" alt="Rolling Scopes" width="100px">
             Курс «JavaScript/Front-end»
           </a>
