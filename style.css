@@ -47,6 +47,10 @@
   padding: 15px;
 }
 
+.section2 > ol {
+  padding-left: 15px;
+}
+
 .section2 > ol > li, h2 {
   padding-bottom: 10px;
 }
